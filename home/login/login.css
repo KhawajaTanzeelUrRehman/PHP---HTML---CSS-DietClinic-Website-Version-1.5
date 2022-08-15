@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Pacifico&display=swap');
+#mylogo {
+    font-family: 'Pacifico', cursive;
+    margin-top: 47px;
+    color: rgb(206, 66, 66);
+}
+
+.inputclass {
+    margin-top: 40px;
+}
+
+div#container {
+    width: 500px;
+    height: 50px;
+    display: inline;
+    align-items: center;
+}
+
+div.container_login {
+    /*Basic Layout*/
+    margin: 45px auto;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    display: block;
+    /*Border*/
+    border: 5px solid #cccccc;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /*Shadow*/
+    box-shadow: -3px 5px 5px 5px #cccccc;
+    /*Position*/
+    text-align: center;
+}
+
+img.lms {
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 0px auto;
+    margin-bottom: 60px;
+}
+
+input.login_form {
+    width: 299px;
+    height: 32px;
+    font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 11px;
+    background-repeat: no-repeat;
+    background-position: 5px 12px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+input.login_form:hover {
+    border: 1px solid #94dbe0;
+}
+
+input.login_form:focus {
+    background-color: #f2f2f2;
+    border: 1px solid #b1e1e4;
+}
+
+input#login_email {
+    background-image: url("/log_in/email2.png");
+}
+
+input#login_password {
+    background-image: url("/log_in/password2.png");
+    background-position: 5px 2px;
+}
+
+input#login_button {
+    padding: 0px;
+    width: 302px;
+    height: 45px;
+    background-image: none;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(206, 66, 66);
+    margin-top: 33px;
+    margin-bottom: 25px;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input#login_button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+input#login_button:focus {
+    border: 3px solid rgb(91, 136, 219);
+}
+
+span {
+    text-align: center;
+    color: rgb(50, 104, 206);
+}
+
+a.forgot_password {
+    text-decoration: none;
+}
+
+a.forgot_password:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+input#new_accnt {
+    padding: 0px;
+    width: 233px;
+    height: 53px;
+    background-image: none;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span#name {
+    display: block;
+    font-size: 115%;
+    border-bottom: 5px solid #cccccc;
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    padding: 3px;
+    margin: auto;
+    width: 754px;
+    border-radius: 10px;
+    word-spacing: 50us;
+}

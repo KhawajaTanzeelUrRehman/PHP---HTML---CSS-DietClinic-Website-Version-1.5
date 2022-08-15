@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,200;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* .myrow_1{
+    padding-left: 214px;
+} */
+
+.card {
+    border: 5px solid darkblue;   
+    width: 33rem;
+}
+
+.mycard-3 {
+    margin-left: 20rem;
+}
+
+.card-text {
+    font-weight: lighter;
+    padding: 1rem;
+    padding-bottom: 0rem;
+}
+
+.my-title {
+    padding-top: 7px;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mycard1{
+        margin-bottom: 1rem;
+        margin-left: 14rem;
+    }
+
+    .mycard-2{
+        margin-left: 14rem;
+
+    }
+
+    .mycard-3{
+        margin-left: 14rem;
+        
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    .card{
+        width: 45vw;
+        min-width: 32vw;
+    }
+}
